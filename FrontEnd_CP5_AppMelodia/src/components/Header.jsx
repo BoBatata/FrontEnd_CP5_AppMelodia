@@ -1,7 +1,7 @@
 import "../styles/variables.css";
 import "../styles/index.css";
 import logo from '../assets/logo.png';
-import bars from '../assets/bars.svg';
+
 
 const Header = () => {
     return (
