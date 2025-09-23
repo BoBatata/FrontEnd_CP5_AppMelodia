@@ -4,6 +4,7 @@ import UserCommentary from '../components/UserCommentary';
 import Footer from '../components/Footer';
 import "../styles/variables.css";
 import "../styles/index.css";
+import ProductApresentation from '../components/ProductApresentation';
 
 
 const LandingPage = () => {
@@ -65,7 +66,14 @@ const LandingPage = () => {
                 />
             </div>
         </div>
-      
+    <div>
+        <ProductApresentation
+            title={"Interface"}
+            text={"Um produto nunca antes visto."}
+            image={"../src/assets/interface.png"}
+            alt={"Interface do produto em um celular"}
+        />
+     </div>
     <div id="contato" className="w-full flex justify-center items-center py-8 md:py-12 bg-[var(--primaria)] px-4">
         <form className="w-full max-w-sm md:max-w-lg rounded-xl p-4 md:p-6 space-y-4">
             <h2 className="text-xl md:text-2xl font-bold text-center text-[var(--texto)]">
