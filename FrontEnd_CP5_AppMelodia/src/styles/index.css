@@ -1,0 +1,25 @@
+@import "tailwindcss";
+@import "./variables.css";
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--fundo);
+  color: var(--texto);
+  line-height: 1.6;
+}
+
+.title {
+  font-size: clamp(29px, 2.5vw, 32px);
+  font-weight: 900;
+}
+.subtitle {
+  font-size: clamp(23px, 2vw, 25px);
+  font-weight: 700;
+}
+.link {
+  font-size: 14px;
+  font-weight: 600;
+}
+.text {
+  font-size: 13px;
+}
