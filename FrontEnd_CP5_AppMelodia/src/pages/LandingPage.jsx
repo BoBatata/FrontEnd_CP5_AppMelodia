@@ -17,7 +17,7 @@ const LandingPage = () => {
             <button className="bg-[var(--secundaria)] text-[var(--text)] px-4 py-2 md:px-6 md:py-3 rounded-full hover:bg-[var(--text-secundaria)] transition text-sm md:text-base"><a href='https://soundcloud.com/musicas-sem-copyright1'>Ouvir Agora</a></button>
         </div>
 
-        <div id="beneficios" className="flex flex-col justify-center items-center p-4 md:p-8 bg-gray-50">
+        <div id="beneficios" className="flex flex-col justify-center items-center p-4 md:p-8 bg-white">
             <h2 className="text-black font-bold text-xl md:text-2xl lg:text-3xl mb-6 md:mb-8">Por que escolher o Melodia?</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 w-full max-w-6xl px-2">                
                 <ApresentationCard
@@ -41,7 +41,7 @@ const LandingPage = () => {
             </div>
         </div>
 
-        <div id="depoimentos" className="flex flex-col justify-center items-center p-4 md:p-8">
+        <div id="depoimentos" className="flex flex-col justify-center items-center p-4 md:p-8 bg-white">
             <h2 className="text-black font-bold text-xl md:text-2xl lg:text-3xl mb-6 md:mb-8">O que dizem nossos usuários</h2>
             
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 w-full max-w-5xl px-2">                
@@ -73,21 +73,21 @@ const LandingPage = () => {
             </h2>
 
             <div>
-            <input type="text" id="nome" placeholder="Seu Nome" className="mt-1 w-full p-2 md:p-3 bg-[var(--fundo-secundaria)] rounded-lg text-[var(--texto)] focus:ring-2 focus:ring-[var(--text-secundaria)] focus:outline-none text-sm md:text-base"
+            <input type="text" id="nome" placeholder="Seu Nome" className="mt-1 w-full p-2 md:p-3 bg-[var(--fundo)] rounded-lg text-[var(--primaria)] focus:ring-2 focus:ring-[var(--text-secundaria)] focus:outline-none text-sm md:text-base"
             />
             </div>
 
             <div>
             <input
-                type="email" id="email" placeholder="Seu E-mail" className="mt-1 w-full p-2 md:p-3 bg-[var(--fundo-secundaria)] rounded-lg text-[var(--texto)] focus:ring-2 focus:ring-[var(--text-secundaria)] focus:outline-none text-sm md:text-base"
+                type="email" id="email" placeholder="Seu E-mail" className="mt-1 w-full p-2 md:p-3 bg-[var(--fundo)] rounded-lg text-[var(--primaria)] focus:ring-2 focus:ring-[var(--text-secundaria)] focus:outline-none text-sm md:text-base"
             />
             </div>
 
             <div>
-            <textarea id="mensagem" rows="4" placeholder="Escreva sua mensagem..." className="mt-1 w-full p-2 md:p-3 bg-[var(--secundaria)] rounded-lg text-[var(--primaria)] focus:ring-2 focus:ring-[var(--text-secundaria)] focus:outline-none text-sm md:text-base"></textarea>
+            <textarea id="mensagem" rows="4" placeholder="Escreva sua mensagem..." className="mt-1 w-full p-2 md:p-3 bg-[var(--fundo)] rounded-lg text-[var(--primaria)] focus:ring-2 focus:ring-[var(--text-secundaria)] focus:outline-none text-sm md:text-base"></textarea>
             </div>
 
-            <button type="submit" className="w-full bg-[var(--secundaria)] text-white py-2 md:py-3 rounded-lg font-semibold hover:bg-[var(--fundo-secundaria)] transition text-sm md:text-base">
+            <button type="submit" className="w-full bg-[var(--secundaria)] text-white py-2 md:py-3 rounded-lg font-semibold hover:bg-[var(--text-secundaria)] transition text-sm md:text-base">
             Enviar
             </button>
         </form>
