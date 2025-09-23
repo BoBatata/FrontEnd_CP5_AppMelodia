@@ -5,7 +5,7 @@ import logo from '../assets/logo.png';
 
 const Header = () => {
     return (
-    <header className="w-full bg-[var(--fundo)] px-4 md:px-6 py-4 md:py-6">
+    <header className="w-full bg-[var(--fundo)] px-4 md:px-6 py-4 md:py-6 fixed">
         <div className="max-w-[1140px] mx-auto flex items-center justify-between">
             <div className="flex items-center space-x-2 md:space-x-3">
                 <img className="w-10 h-10 md:w-12 md:h-12" src={logo} alt="Logo" />
