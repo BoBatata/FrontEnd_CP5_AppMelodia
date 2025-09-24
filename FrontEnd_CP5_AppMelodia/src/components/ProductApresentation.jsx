@@ -10,7 +10,6 @@ const ApresentationCard = ({title,text,text2,text3, image, alt,image_missao,alt_
           <img className="w-full max-w-[200px] sm:max-w-[250px] md:max-w-[280px] lg:max-w-[300px] mb-4" src={image} alt={alt} />
           <h3 className="text-black font-bold text-lg md:text-xl lg:text-2xl text-center">{title}</h3>
         </div>
-        
         <div className="flex flex-col md:flex-row lg:flex-col xl:flex-row gap-3 md:gap-4 lg:gap-3 xl:gap-4 w-full lg:w-2/3">
           <div className="shadow-md p-3 md:p-4 hover:shadow-lg transition-shadow flex-1 rounded-lg bg-gray-50">
             <img className="w-full max-w-[120px] sm:max-w-[140px] md:max-w-[160px] mx-auto mb-2" src={image_missao} alt={alt_missao}></img>

@@ -24,19 +24,19 @@ const LandingPage = () => {
                 <ApresentationCard
                 title={"Qualidade de Som"}
                 text={"Áudio cristalino para você curtir cada batida."}
-                image={"../src/assets/headphones.svg"}
+                image={"/headphones.svg"}
                 alt={"Ícone de Headphones"}
                 />
                 <ApresentationCard
                 title={"Playlists Personalizadas"}
                 text={"Monte sua trilha sonora de acordo com seu estilo."}
-                image={"../src/assets/list.svg"}
+                image={"/list.svg"}
                 alt={"Ícone de Lista"}
                 />
                 <ApresentationCard
                 title={"Novos Artistas"}
                 text={"Descubra sons e vozes que você ainda não conhece."}
-                image={"../src/assets/music-icon.svg"}
+                image={"/music-icon.svg"}
                 alt={"Ícone de Nota Musical"}
                 />
             </div>
@@ -49,19 +49,19 @@ const LandingPage = () => {
                 <UserCommentary
                 name={"Pedro Cunha Coutinho"}
                 text={"O melhor app de música que já usei!"}
-                photo={"../src/assets/user.svg"}
+                photo={"/user.svg"}
                 alt={"Foto de Usúario"}
                 />
                 <UserCommentary
                 name={"Thomaz Vasconcelos Mendes"}
                 text={"A qualidade do áudio é incrível!"}
-                photo={"../src/assets/user.svg"}
+                photo={"/user.svg"}
                 alt={"Foto de Usúario"}
                 />
                 <UserCommentary 
                 name={"Pedro Henrique dos Santos"}
                 text={"Não consigo parar de escutar músicas nesse app."}
-                photo={"../src/assets/user.svg"}
+                photo={"/user.svg"}
                 alt={"Foto de Usúario"}
                 />
             </div>
@@ -69,16 +69,16 @@ const LandingPage = () => {
     <div>
         <ProductApresentation
             title={"App Melodia"}
-            image_missao={"../src/assets/bullseye-solid-full.svg"}
+            image_missao={"/bullseye-solid-full.svg"}
             alt_missao={"Imagem de Alvo"}
             text={"Proporcionar uma experiência musical excepcional através de tecnologia inovadora, conectando pessoas às suas paixões musicais com qualidade cristalina de áudio e descobertas personalizadas."}
-            image_valores={"../src/assets/heart-solid-full.svg"}
+            image_valores={"/heart-solid-full.svg"}
             alt_valores={"Imagem Coração"}
             text2={"Ser a plataforma de música preferida globalmente, revolucionando como as pessoas descobrem, compartilham e vivenciam a música, criando uma comunidade musical vibrante e inclusiva."}
-            image_visao={"../src/assets/glasses-solid-full.svg"}
+            image_visao={"/glasses-solid-full.svg"}
             alt_visao={"Imagem Óculos"}
             text3={"Descubra uma experiência musical única com o design moderno do Melodia. Nossa interface em tons vibrantes de roxo e rosa oferece navegação simplificada, playlists personalizadas e acesso instantâneo às suas músicas favoritas. Com visual clean e funcionalidades inteligentes, encontre e organize sua trilha sonora perfeita em poucos toques."}
-            image={"../src/assets/interface.png"}
+            image={"/interface.png"}
             alt={"Interface do produto em um celular"}
         />
      </div>
