@@ -2,7 +2,7 @@ import "../styles/variables.css";
 import "../styles/index.css";
 import logo from '../assets/logo.png';
 import facebook from '../assets/facebook.svg';
-import instragram from '../assets/instagram.svg';
+import instagram from '../assets/instagram.svg';
 import linkedin from '../assets/linkedin.svg';
 
 const Footer = () => {
@@ -18,7 +18,7 @@ const Footer = () => {
                     <img class="w-10 h-10" src={facebook} alt="Facebook" />
                 </a>
                 <a href="#" aria-label="Instagram">
-                    <img class="w-10 h-10" src={instragram} alt="Instagram" />
+                    <img class="w-10 h-10" src={instagram} alt="Instagram" />
                 </a>
                 <a href="#" aria-label="LinkedIn">
                     <img class="w-10 h-10" src={linkedin} alt="LinkedIn" />
