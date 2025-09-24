@@ -8,11 +8,11 @@ import ProductApresentation from '../components/ProductApresentation';
 
 
 const LandingPage = () => {
-  return (
+  return (  
     <>
       <Header/>
 
-        <div className="bg-[var(--primaria)] w-full h-[250px] md:h-[300px] lg:h-[350px] flex flex-col justify-center items-center p-4 md:p-6 text-center space-y-3 md:space-y-4 overflow-hidden">
+        <div className="bg-[var(--primaria)] w-full h-[250px] md:h-[300px] lg:h-[350px] flex flex-col justify-center items-center p-4 md:p-6 text-center overflow-hidden ">
             <h1 className="title"> Melodia: Sua Música, Sua Forma</h1>
             <p className="subtitle px-2 md:px-4">Descubra novos artistas, crie playlists personalizadas e viva a melhor experiência musical com qualidade de som superior.</p>
             <button className="bg-[var(--secundaria)] text-[var(--text)] px-4 py-2 md:px-6 md:py-3 rounded-full hover:bg-[var(--text-secundaria)] transition text-sm md:text-base"><a href='https://soundcloud.com/musicas-sem-copyright1'>Ouvir Agora</a></button>
@@ -68,8 +68,16 @@ const LandingPage = () => {
         </div>
     <div>
         <ProductApresentation
-            title={"Interface"}
-            text={"Um produto nunca antes visto."}
+            title={"App Melodia"}
+            image_missao={"../src/assets/bullseye-solid-full.svg"}
+            alt_missao={"Imagem de Alvo"}
+            text={"Proporcionar uma experiência musical excepcional através de tecnologia inovadora, conectando pessoas às suas paixões musicais com qualidade cristalina de áudio e descobertas personalizadas."}
+            image_valores={"../src/assets/heart-solid-full.svg"}
+            alt_valores={"Imagem Coração"}
+            text2={"Ser a plataforma de música preferida globalmente, revolucionando como as pessoas descobrem, compartilham e vivenciam a música, criando uma comunidade musical vibrante e inclusiva."}
+            image_visao={"../src/assets/glasses-solid-full.svg"}
+            alt_visao={"Imagem Óculos"}
+            text3={"Descubra uma experiência musical única com o design moderno do Melodia. Nossa interface em tons vibrantes de roxo e rosa oferece navegação simplificada, playlists personalizadas e acesso instantâneo às suas músicas favoritas. Com visual clean e funcionalidades inteligentes, encontre e organize sua trilha sonora perfeita em poucos toques."}
             image={"../src/assets/interface.png"}
             alt={"Interface do produto em um celular"}
         />
